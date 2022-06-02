@@ -5,6 +5,9 @@ import "./App.css";
 
 import { UI } from "./components/UI";
 import { HomePage } from "./components/HomePage";
+import { LevelsPage } from "./components/LevelsPage";
+import { JournalPage } from "./components/JournalPage";
+import { PrototypesPage } from "./components/PrototypesPage";
 
 export const App = () => {
 	return (
@@ -12,9 +15,12 @@ export const App = () => {
 			<Routes>
 				<Route path='/' element={<UI />}>
 					<Route index element={<HomePage />} />
-					{/* <Route path="levels" element={<Levels />}>
+					<Route path='levels' element={<LevelsPage />} />
+					{/*
                         <Route path=":levelId" element={<Level />} />
-                    </Route> */}
+                    */}
+					<Route path='journal' element={<JournalPage />} />
+					<Route path='prototypes' element={<PrototypesPage />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

@@ -112,7 +112,7 @@
 
 .lune-land {
 	fill: white;
-	animation: lune-land 32s infinite linear;
+	animation: lune-land 14s infinite linear;
 }
 
 @keyframes lune-land {

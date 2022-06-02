@@ -41,7 +41,6 @@ export const HomePage = () => {
 					<br />
 					<p>This is my website.</p>
 					<p>It's a bit weird.</p>
-					<br />
 					<p>Intentionally, often.</p>
 					<p>Unintentionally, more often.</p>
 				</div>
